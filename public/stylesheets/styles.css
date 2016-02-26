@@ -89,10 +89,13 @@ Navbar
   text-decoration:none;
 }
 
+.navli-div {
+  float: right;
+  margin: -18px 400px 0 0;
+}
 .navli {
+  margin-right: 15px;
   display: inline;
-  margin: -12px 7px 12px 7px;
-  float:right;
 }
 
 .logo {
