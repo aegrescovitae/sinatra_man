@@ -112,6 +112,15 @@ Navbar
 }
 
 /*==============================
+Internal Search
+==============================*/
+
+.internal-search {
+  float:right;
+  margin-top: -22px;
+}
+
+/*==============================
 Index
 ==============================*/
 
@@ -136,4 +145,15 @@ Index
 
 .index a:hover {
   font-weight: bold;
+}
+
+/*==============================
+404
+==============================*/
+
+.sinatra-not-found {
+  height: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
