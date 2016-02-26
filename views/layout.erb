@@ -10,7 +10,7 @@
           <ul class='search'>
             <form action="https://google.com/search" method="get">
               <input type="hidden" name="sitesearch" value=" man pages" />
-              <input type="text" name="q" placeholder="Search"/>
+              <input type="text" name="q" placeholder="Google Search"/>
               <input type="submit" name="submit">
             </form>
           </ul>
@@ -24,6 +24,12 @@
           <li class='navli'><a href='/mv'>MV</a></li>
           <li class='navli'><a href='/'>Home</a></li>
         </ul>
+      </div>
+      <div class='selfsearch'>
+        <form action="internal_search" method="get">
+          <input type="text" name="search" placeholder="Seach this site" />
+          <input type="submit" name="submit">
+        </form>
       </div>
     </div>
     <%= yield %>

@@ -24,3 +24,13 @@ end
 get '/mv' do
   erb :mv
 end
+
+get '/internal_search' do
+    @search = params['search']
+    erb :internal_search
+end
+
+not_found do
+  status 404
+  erb :not_found
+end
