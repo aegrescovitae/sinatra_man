@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link href="/stylesheets/styles.css" rel="stylesheet">
+    <title>Garrett's Sinatra App</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h3 class="logo">Sinatra Man Pages</h3>
+      <ul>
+        <li class='search'>
+          <form action="https://google.com/search" method="get">
+            <input type="hidden" name="sitesearch" value="" />
+            <input type="text" name="q" placeholder="Search"/>
+            <input type="submit" name="submit">
+          </form>
+        </li>
+        <li class='navli'><a href='/cp'>CP</a></li>
+        <li class='navli'><a href='/ls'>LS</a></li>
+        <li class='navli'><a href='/mkdir'>MKDIR</a></li>
+        <li class='navli'><a href='/touch'>Touch</a></li>
+        <li class='navli'><a href='/mv'>MV</a></li>
+        <li class='navli'><a href='/'>Home</a></li>
+      </ul>
+    </div>
+
+    <%= yield %>
+  </body>
+</html>
